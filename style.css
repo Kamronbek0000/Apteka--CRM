@@ -123,3 +123,34 @@ button:hover{
   font-size:45px;
   margin-bottom:10px;
 }
+@media (max-width: 768px) {
+
+  body{
+    flex-direction: column;
+  }
+
+  .sidebar{
+    width: 100%;
+    height: auto;
+    text-align: center;
+  }
+
+  .sidebar ul li{
+    display: inline-block;
+    margin: 5px;
+  }
+
+  .main{
+    padding: 10px;
+  }
+
+  .cards{
+    grid-template-columns: 1fr;
+  }
+
+  .topbar{
+    flex-direction: column;
+    gap: 10px;
+  }
+
+}
