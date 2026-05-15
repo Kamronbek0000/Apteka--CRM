@@ -27,10 +27,6 @@
   <button onclick="location.href='dashboard.html'">Dashboard ochish</button>
 </header>
 
-
-
-
-
 <section class="features">
   <h2>Tizim Imkoniyatlari</h2>
 
@@ -68,6 +64,60 @@
 
   </div>
 </section>
+  <section class="crm-system">
+
+  <h2>Tizim</h2>
+
+  
+  <form id="productForm">
+
+    <input type="text" id="name" placeholder="Dori nomi" required>
+
+    <input type="number" id="price" placeholder="Narxi" required>
+
+    <input type="number" id="quantity" placeholder="Soni" required>
+
+    <button type="submit">
+      Qo‘shish
+    </button>
+
+  </form>
+
+  <table>
+
+    <thead>
+      <tr>
+        <th>Nomi</th>
+        <th>Narxi</th>
+        <th>Soni</th>
+        <th>Delete</th>
+      </tr>
+    </thead>
+
+    <tbody id="productTable"></tbody>
+
+  </table>
+
+  
+  <h2 class="sale-title">Sotuv yozish</h2>
+
+  <form id="saleForm">
+
+    <input type="text" id="saleName"
+    placeholder="Dori nomi" required>
+
+    <input type="number" id="saleQty"
+    placeholder="Soni" required>
+
+    <button type="submit">
+      Sotish
+    </button>
+
+  </form>
+
+  <ul id="salesList"></ul>
+
+  </section>
 
 <section class="price">
   <h2>Narx Kelishiladi</h2>
